@@ -1,0 +1,8 @@
+runtime: python37
+api_version: 1
+threadsafe: true
+default_expiration: "30s"
+handlers:
+- url: /app/*
+  script: main.app
+  login: admin
